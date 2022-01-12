@@ -1,0 +1,426 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+/*header*/
+header{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Zen Kurenaido', sans-serif;
+    
+}
+
+header .primero{
+    display: block;
+
+    background: #C5CAE9;
+    justify-content: center;
+    border: solid 1px;
+    border-color: #BDBDBD;
+    width: 100%;
+}
+
+.Logo{
+    margin-left: 40px;
+}
+
+.inicio {
+    display: none;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    font-size: 40px;
+    height: 40px;
+}
+
+.inicio i {
+    font-size: 50px;
+    margin: auto;
+    color: #0829e2be;
+}
+
+header .segundo{
+    display: flex;
+    background-color: #C5CAE9;
+    justify-content: center; 
+    background: #C5CAE9;
+}
+
+header .form{
+    display: flex;
+    padding: 5px;
+}
+
+
+/**/
+.form{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.form .la-bara{
+    background-color: white;
+    border: 1px solid #666;
+    color:#666;
+    padding: 3px;
+    width: 1200px;
+    border-radius: 3px;
+    height: 35%;
+    margin: auto;
+}
+
+.form .submitt{
+    background-color: #ebebeb;
+    border: 1px solid #666;
+    color:#000;
+    padding: 3px;
+    width: 40px;
+    border-radius: 3px;
+    height: 35%;
+    margin: auto;
+}
+/**/
+
+
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #3F51B5;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+
+
+/**/
+.tercero{
+    
+    background-color: rgb(43, 43, 204);
+    background: #3F51B5;  
+}
+
+.tercero .nav-barr{
+    display: none;
+
+   
+}
+
+.nav-barr ul{
+
+    margin: 10px;
+    text-align: center;
+    list-style-type: none;
+}
+
+
+header .nav-barr a{
+    list-style-type: none;
+    font-size: 22px;
+    text-decoration:none;
+    font-weight: bold;
+    color: #FFFFFF; 
+    text-align: center;
+    display: inline-block;
+
+}
+header ul li a:hover{
+    background: #C5CAE9;
+    color: black;
+    border-radius: 3px;
+}
+/*header*/
+
+/*register- ccs*/
+.main-register{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    flex-direction:column;
+    text-align: center;
+    background-color: #C5CAE9;
+}
+
+
+.register{
+    display: flex;
+    flex-direction:column;
+    
+    
+}
+.b-de-vuelta, .b-verte{
+    font-size: 30px;
+}
+
+.b-verte{
+    font-size: 15px;
+}
+
+.b-de-vuelta, .b-verte{
+    text-align: center;
+    color: white;
+
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.register label{
+    color: black;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.registrate{
+    color: black;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+::placeholder{
+    background-color: white;
+    color: rgb(43, 43, 204);;
+}
+
+.login button{
+    margin-top: 20px;
+}
+
+.reg{
+    display: flex;
+    max-width: 50%;
+    padding: 9px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 26%;
+}
+
+
+.reg2{
+    display: flex;
+    max-width: 40%;
+    padding: 9px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 30%;
+    margin-top: 20px;
+    background-color: rgb(43, 43, 204);
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+.reg2:hover{
+    background-color: rgb(74, 116, 194); 
+    color: black;
+}
+
+.reg3{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 17px;
+}
+
+/*boton enviar*/
+.reg2{
+    color:rgb(43, 43, 204);;
+    text-decoration: none;
+}
+
+.login button {
+    display: flex;
+    max-width: 100%;
+    background-color: #1259c3;
+}
+
+.login button[type='submit']:hover{
+    background-color: #0022AA;
+}
+/*boton enviar*/
+
+
+/*avisos  de abajo*/
+.cuenta-regist{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.olvidar{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.avisos a{
+    color: black;
+    font-family: 'Zen Kurenaido', sans-serif;
+    text-decoration: none;
+    font-size: 23px;
+
+}
+
+/*avisos  de abajo*/
+
+/*register- ccs*/
+
+/*footer*/
+.main-footer{
+    display: flex;
+    
+    justify-content: space-between;
+    font-family: 'Zen Kurenaido', sans-serif;
+    text-decoration: none;
+    padding: 20px;
+    background: #3F51B5
+    
+}
+
+.main-footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+.fomulario{
+    padding: 0px 50px;
+    color: white;
+}
+h5{
+    color: white;
+}
+.main-footer ul li {
+    text-decoration: none;
+    color: white;
+    list-style-type:none
+}
+.main-footer ul i{
+    text-decoration: none;
+    color: white;
+}
+
+.logobot
+{
+    background-color: #C5CAE9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/*footer*/
+
+
+@media(min-width:361px){
+    /*header*/
+    header .burger-menu{
+        display: none;
+    }
+
+    .tercero .nav-barr{
+        text-align: center;
+        margin: auto;
+        display: flex;
+        margin: 0 3%;
+
+    }
+
+    header .nav-barr{
+        display: flex;
+        justify-content: center;
+        padding: 0 8px 8px 8px;
+    }
+
+    .nav-barr ul{
+        display: flex;
+    }
+    .nav-barr ul a{
+        margin: 0 5px;
+        display: flex;
+        padding: 0 3px;
+
+    }
+/*
+    }*/
+    .inicio {
+        display: flex;
+        text-align: center;
+        margin: 10px;
+        font-size: 20px;
+        height: 40px;
+        font-size: 25px;
+    }
+    /*
+    }*/
+    /*header*/
+
+    /*register- ccs*/
+    .login{
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+    }
+    /*register- ccs*/
+}
+
+
+
+@media(min-width:769px){
+    /*header- home- css*/
+    header .primero{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    /*header- home- css*/
+
+}
+
+
+@media screen and (max-width: 900px) {
+    /*footer*/
+    *{
+        padding: 0px;
+    }
+    
+    /*header- home- css*/
+    main {
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .titulo-compra{
+        display: block;
+    }
+    /*header- home- css*/
+
+    
+    footer{
+      position: relative;
+      bottom: 0px;
+      text-align: center;
+    }
+    .main-footer{
+      flex-wrap: wrap;
+      flex-direction: column-reverse;
+    }
+    .main-footer ul li {
+      margin: 5px 0;
+    }
+    /*footer*/
+    
+}

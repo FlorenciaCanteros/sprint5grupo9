@@ -1,0 +1,274 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*login- css*/
+.main-login{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    background-color: #C5CAE9;
+}
+
+.b-de-vuelta{
+    font-size: 30px;
+}
+
+.b-verte{
+    font-size: 15px;
+}
+
+.b-de-vuelta{
+    text-align: center;
+    color: black;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 33px;
+    font-weight: bold;
+
+}
+
+.b-verte{
+    text-align: center;
+    color: black;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.login label{
+    color: black;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: bold;
+}
+
+::placeholder{
+    color: white;
+}
+
+.login input{
+    background-color: white;
+    color: rgb(43, 43, 204);
+}
+
+.login button{
+    margin-top: 20px;
+}
+
+.login input, button{
+    display: flex;
+    max-width: 100%;
+    padding: 9px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+/*boton enviar*/
+.login button  a{
+    color:white;
+    text-decoration: none;
+}
+
+.login button {
+    display: flex;
+    max-width: 50%;
+    background-color: #1259c3;
+    margin: auto;
+    margin-top: 20px;
+    font-family: 'Zen Kurenaido', sans-serif;
+    align-items: center;
+}
+
+.login button[type='submit']:hover{
+    background-color: #0022AA;
+}
+/*boton enviar*/
+
+
+/*avisos  de abajo*/
+.cuenta-regist{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.olvidar{
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Zen Kurenaido', sans-serif;
+    align-items: center;
+    position: relative;
+    left: 20%;
+}
+
+
+.regist{
+    position: static;
+    
+}
+
+.avisos a{
+    text-decoration: none;
+    color: #0022AA;
+    margin-top: 32px;
+    font-size: 20px;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: bold;
+}
+/*avisos  de abajo*/
+/*login- css*/
+
+
+/*footer*/
+.main-footer{
+    display: flex;
+    
+    justify-content: space-between;
+    font-family: 'Zen Kurenaido', sans-serif;
+    text-decoration: none;
+    padding: 20px;
+    background: #3F51B5
+    
+}
+
+.main-footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+.fomulario{
+    padding: 0px 50px;
+    color: white;
+}
+h5{
+    color: white;
+}
+.main-footer ul li {
+    text-decoration: none;
+    color: white;
+    list-style-type:none
+}
+.main-footer ul i{
+    text-decoration: none;
+    color: white;
+}
+
+.logobot
+{
+    background-color: #C5CAE9;
+    padding: 10px;
+    border-radius: 5px;
+}
+/*footer*/
+
+
+
+
+@media(min-width:361px){
+    /*header*/
+    header .burger-menu{
+        display: none;
+    }
+
+    .tercero .nav-barr{
+        text-align: center;
+        margin: auto;
+        display: flex;
+        margin: 0 3%;
+
+    }
+
+    header .nav-barr{
+        display: flex;
+        justify-content: center;
+        padding: 0 8px 8px 8px;
+    }
+
+    .nav-barr ul{
+        display: flex;
+    }
+    .nav-barr ul a{
+        margin: 0 5px;
+        display: flex;
+        padding: 0 3px;
+
+    }
+
+    /*
+    }*/
+    .inicio {
+        display: flex;
+        text-align: center;
+        margin: 10px;
+        font-size: 20px;
+        height: 40px;
+        font-size: 25px;
+    }
+    /*
+    }*/
+    /*header*/
+
+    /*login- css*/
+    .login{
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+    }
+    /*login- css*/
+}
+
+
+
+@media(min-width:769px){
+    /*header- home- css*/
+    header .primero{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    /*header- home- css*/
+
+
+}
+
+
+@media screen and (max-width: 900px) {
+
+    /*footer*/
+    *{
+        padding: 0px;
+    }
+
+    /*header- home- css*/
+    .titulo-compra{
+        display: block;
+    
+    }
+    /*header- home- css*/
+
+    footer{
+      position: relative;
+      bottom: 0px;
+      text-align: center;
+    }
+    .main-footer{
+      flex-wrap: wrap;
+      flex-direction: column-reverse;
+    }
+    .main-footer ul li {
+      margin: 5px 0;
+    }
+    /*footer*/
+    
+}

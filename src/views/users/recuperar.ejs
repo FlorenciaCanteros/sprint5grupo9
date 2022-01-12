@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <%- include('../partials/head') %>
+    
+
+<body>
+
+    <%- include('../partials/header') %> 
+
+
+    <main class="main-recuperar">
+        <form class="recuperar-form" action="#" method="post">
+            <div class="recuperar-contraseña">
+
+                <h3 class="titulo-recuperar">Recuperar contraseña</h3>
+                <p class="letras-recuperar">Escribe aquí tu mail, para recibir el código de acceso.</p>
+
+                
+                <input type="email" name="email" id="e-mailRec" placeholder="Ej: ejemplo@gmail.com" required>
+
+
+                <div class="enviar"><button  type="submit"><a href="/">Enviar</a> </button></div>
+            </div>
+
+            <div class="validar">
+
+                <h3 class="titulo-recuperar">Validar contraseña</h3>
+                <p class="letras-recuperar">Ingrese aquí el código que le envíaremos a xxxx@gmail.com y cree una nueva contraseña.</p>
+
+
+                <input type="email" name="email" id="e-mailRec" placeholder="Ingrese su código de acceso" required>
+
+                <input type="email" name="email" id="e-mailRec" placeholder="Escriba su nueva contraseña" required>
+
+                <input type="email" name="email" id="e-mailRec" placeholder="Confirme su nueva contraseña" required>
+
+                <div class="crear"><button  type="submit"><a href="/">Crear</a> </button></div>
+            </div>
+        </form>
+    </main>
+
+
+    <%- include('../partials/footer') %> 
+    
+</body>
+</html>

@@ -1,0 +1,86 @@
+[
+    {
+     "id": 1,
+     "Foto-usuario": "bulma1.jpg",
+     "Nombre": "TomÃ¡s",
+     "Apellido": "Hurtado",
+     "Nombre de usuario": "Ruby Kurosawa",
+     "E-mail": "tomas@gmail.com",
+     "Telefono": 42703014,
+     "Imagen de compra":"Ram.jpg",
+     "descripcion-compra":"Memora PNY DDR4 8GB 3200MHz XLR8 Epic RGB",
+     "cantidad": 2 ,
+     "total": 77.144
+    },
+
+    {
+     "id": 2,
+     "Foto-usuario": "user2.jpg",
+     "Nombre": "Peter",
+     "Apellido": "Parker",
+     "Nombre de usuario": "PeterParker01",
+     "E-mail": "Peterparker001@gmail.com",
+     "Telefono": 42783847,
+     "Imagen de compra":"MonitorSamsung.jpg",
+     "descripcion-compra":"Monitor 24 pulgadas",
+     "cantidad": 1,
+     "total": 42.000
+    },
+
+    {
+     "id": 3,
+     "Foto-usuario": "user3.jpg",
+     "Nombre": "Bruce",
+     "Apellido": "Diaz",
+     "Nombre de usuario": "Bruce Diaz",
+     "E-mail": "iamnotbatman@gmail.com",
+     "Telefono": 42465794,
+     "Imagen de compra":"placadevideo.jpg",
+     "descripcion-compra":"Placa De Video Gtx 1050ti Geforce Gddr5 4gb Arktek Gamer",
+     "cantidad": 1,
+     "total": 49.990
+    },
+
+        {
+     "id": 4,
+     "Foto-usuario": "user4.jpg",
+     "Nombre": "Jhon",
+     "Apellido": "Snow",
+     "Nombre de usuario": "Jhon Snow",
+     "E-mail": "yonosena@gmail.com",
+     "Telefono": 48574032,
+     "Imagen de compra":"Tecladogamer.jpg",
+     "descripcion-compra":"Teclado gamer Redragon Kumara K552 QWERTY Outemu Blue español latinoamérica color negro con luz RGB",
+     "cantidad": 1,
+     "total": 6.700
+    },
+
+        {
+     "id": 5,
+     "Foto-usuario": "user5.jpg",
+     "Nombre": "Cosme",
+     "Apellido": "Fulanito",
+     "Nombre de usuario": "Cosme Fulanito",
+     "E-mail": "yonoconoscoaningunohomero@gmail.com",
+     "Telefono": 42346584,
+     "Imagen de compra":"Audis.jpg",
+     "descripcion-compra": "Apple AirPods con estuche de carga inalámbrica - Blanco",
+     "cantidad": 2 ,
+     "total": 45.890
+    },
+
+    {
+        "id": 6,
+        "Foto-usuario": "user6.jpg",
+        "Nombre": "Buzz",
+        "Apellido": "Lightyear",
+        "Nombre de usuario": "Buzz Lightyear",
+        "E-mail": "soylaseñoranesbit@gmail.com",
+        "Telefono": 42478384,
+        "Imagen de compra":"Monitor.jpg",
+        "descripcion-compra": "Monitor Philips V 243V5LHSB LCD 23.6",
+        "cantidad": 1 ,
+        "total": 22.890
+       }
+
+]

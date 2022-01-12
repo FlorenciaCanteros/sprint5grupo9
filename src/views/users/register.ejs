@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <%- include('../partials/head') %> 
+    
+
+<body>
+
+    <%- include('../partials/header') %> 
+
+
+    <main class="main-register">
+        <h1 class="registrate">Registrate</h1><br>
+        <div class="formulario">
+
+            
+            
+            <form action="/" method="POST">
+
+                <div class="register">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" class="reg" name="nombre" id="nombre" placeholder="nombre" required>
+
+                        <label for="apellido">Apellido</label>
+                        <input type="text" class="reg" name="apellido" id="apellido" placeholder="Apellido" required>
+
+                        <label for="Nombre de usuario">Nombre de usuario</label>
+                        <input type="text" class="reg" name="Nombre de usuario" id="Nombre de usuario" placeholder="Nombre de usuario" required>
+
+                        <label for="e-mail">Correo</label>
+                        <input type="email" class="reg" name="email" id="e-mail" placeholder="Ej: ejemplo@gmail.com" required>
+                        
+                        <label for="tel">Telefono</label>
+                        <input type="number" class="reg" name="tel" id="tel" placeholder="Teléfono" required>
+
+                        <label for="contraeña">Contraseña</label>
+                        <input type="password" class="reg" name="password" id="contraeña" placeholder="Tu contraseña" required>
+
+
+                        <button  class="reg2" type="submit" href="/" ><a >Registrate</a> </button>
+                    
+                
+                    <div class="avisos">
+
+                        <div class="olvidar22">
+                        <a href="/recuperar" >- Olvidé mi contraseña -</a>
+                        </div>
+                        
+                    </div>
+
+                </div>
+                
+            </form>
+        </div>
+
+    </main>
+
+
+
+    <%- include('../partials/footer') %>
+    
+</body>
+</html>
