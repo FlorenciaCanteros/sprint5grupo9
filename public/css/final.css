@@ -151,8 +151,6 @@ div.burger-menu{
     filter: brightness(110%);
   }
 
-
-
 div.burger-menu i {
 
     background-color: #3F51B5;
@@ -1357,6 +1355,9 @@ th {
 
 .perfil{
     width: 50%;
+}
+.main-productCart{
+    padding: 0px;
 }
 
 }
