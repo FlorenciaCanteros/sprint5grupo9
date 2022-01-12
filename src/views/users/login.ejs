@@ -11,22 +11,28 @@
 <main class="main-login">
     <div class="formulario">
 
-        <h1 class="b-de-vuelta">Bienvenido de vuelta</h1>
-        <p class="b-verte">Que bueno verte otra vez :D</p>
+        <h1 class="b-de-vuelta">INICIAR SESIÓN</h1>
+        
 
 
         <form action="/" method="POST">
 
             <div class="login">
                     <label for="e-mail">Correo</label>
-                    <input type="email" name="email" id="e-mail" placeholder="Ej: ejemplo@gmail.com" required>
+                    <input type="email" name="email" id="e-mail" placeholder="Ingrese su usuario o email" required>
 
 
                     <label for="contraeña">Contraseña</label>
-                    <input type="password" name="password" id="contraeña" placeholder="Tu contraseña" required>
+                    <input type="password" name="password" id="contraeña" placeholder="Ingrese su contraseña" required>
+
+                    <div class="texto">
+                        <label for="recordarme">
+                            <input type="checkbox" name="recordarme" id="recordarme" selected>
+                                Recordarme</label>
+                    </div>
 
 
-                    <button class="iniciar" type="submit"><a href="/">Iniciar Sesión</a> </button>
+                    <button class="iniciar" type="submit"><a href="/">Ingresar</a> </button>
                 
 
                 <div class="avisos">
@@ -36,14 +42,17 @@
                         
                         </div>
                     <div class="cuenta-regist">
-                    <p class="b-verte">¿Aún no tienes una cuenta?</p> 
+                    <p class="b-verte">¿Aún no tienes una cuenta? </p> 
 
                     <a href="/register" class="regist">Regístrate</a>
                     </div>
 
                     
                     </div>
-                    
+                    <div class="logoL">
+                        <img src="/img/este_si3.png" width="95" alt="LogoMPC">
+                    </div>
+
                 </div>
 
             </div>

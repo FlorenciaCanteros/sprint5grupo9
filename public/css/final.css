@@ -93,7 +93,68 @@ div.burger-menu{
     text-align: center;
 }
 
-div.burger-menu i{
+.burger-menu2{
+    display: none;
+    margin-top:0;
+    padding: 0;
+  
+  }
+
+#menu:checked  ~ .burger-menu2 {
+    display:block;
+}
+#menu {
+  display: none;
+  }
+
+ .menu {
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+}
+
+
+.desplegableM a{
+    text-decoration: none;
+    color: #dadada;
+} 
+
+
+  /* Estilo del boton cuando se pasa el mouse por encima*/
+  .menu:hover{
+    background: #0022AA;
+  }
+  
+  /* Estilo del boton cuando el menú está expandido*/
+  #menu:checked ~ .menu {
+    background: #0022AA; 
+  }
+
+  .desplegableM{
+    display: block;
+    background:#3F51B5 ;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    border-bottom: 1px solid grey;
+  }
+  
+  /*Estilo cuando el mouse pasa encima de cada link del menu*/
+  .desplegableM:hover {
+    filter: brightness(110%);
+  }
+
+
+
+div.burger-menu i {
+
     background-color: #3F51B5;
     border-radius: 5px;
     color: #FFF;
@@ -251,19 +312,28 @@ h5{
 
 /*******************************inicio login- css(1/2)**********************************/
 .main-login{
+    justify-content: center;
+    background: linear-gradient(to bottom, #3F51B5, white);
+    border-radius: 15px;
+    padding: 1%;
+    width: 36%;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.logoL{
     display: flex;
     justify-content: center;
-    padding: 40px;
-    background-color: #C5CAE9;
+}
+
+.fomulario{
+    display: flex;
 }
 
 .b-de-vuelta{
     font-size: 30px;
 }
 
-.b-verte{
-    font-size: 15px;
-}
 
 .b-de-vuelta{
     text-align: center;
@@ -273,13 +343,9 @@ h5{
     font-weight: bold;
 }
 
-.b-verte{
-    text-align: center;
-    color: black;
-    font-family: 'Zen Kurenaido', sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-    margin-top: 20px;
+.texto{
+    display: flex;
+  justify-content: space-between;
 }
 
 .login{
@@ -298,9 +364,7 @@ h5{
     color: white;
 }
 
-
 .login input{
-    display: flex;
     max-width: 100%;
     padding: 9px;
     margin: 10px 0px;
@@ -316,7 +380,7 @@ h5{
 
 .login button {
     display: flex;
-    background-color: #1259c3;
+    background-color: #0022AA;
     margin: auto;
     margin-top: 20px;
     font-family: 'Zen Kurenaido', sans-serif;
@@ -324,7 +388,7 @@ h5{
 }
 
 .login button[type='submit']:hover{
-    background-color: #0022AA;
+    background-color: #1259c3;
 }
 /*boton enviar*/
 
@@ -365,14 +429,51 @@ h5{
 /******************************inicio perfil- css(1/1)*****************************/
 .main-perfil{
     display: flex;
-    padding: 40px;
+    padding: 30px;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .main-perfil .perfil{
     display: flex;
     flex-direction:column;
 }
+
+.perfil22{
+    background-color: white;
+    justify-content: center;
+    width: 80%;
+    border-radius: 15px;
+    font-family: 'Zen Kurenaido', sans-serif;
+    padding: 3%;
+}
+
+.fotoPerfil{
+    margin-left: 15%;
+    padding: 3%;
+    border-radius: 80px;
+    border: solid #BDBDBD;
+}
+
+.perfil{
+    display: flex;
+    background: linear-gradient(to bottom, #3F51B5, white);
+    border-radius: 10px;
+    padding: 2%;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /******************************fin perfil- css(1/1)*****************************/
 
 
@@ -800,7 +901,7 @@ main section h3{
     display: flex;
     flex-direction:column;
 }
-.b-de-vuelta, .b-verte{
+.b-de-vuelta{
     font-size: 30px;
 }
 
@@ -808,17 +909,15 @@ main section h3{
     font-size: 23px;
     text-align: center;
     margin:auto;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-weight: bold;
 }
 
 .b-de-vuelta{
     text-align: center;
 }
 
-.login{
-    display: flex;
-    flex-direction: column;
-    margin: 20px 0;
-}
+
 
 .register label{
     color: black;
@@ -869,7 +968,7 @@ main section h3{
 }
 
 .login button[type='submit']:hover{
-    background-color: #0022AA;
+    background-color: #1259c3;
 }
 /*boton enviar*/
 
@@ -950,8 +1049,6 @@ th {
     color: white;
 }
 /*lineas de la tabla*/
-
-
 
 .tabla{
     display: flex;
@@ -1125,16 +1222,6 @@ th {
     /******************************fin home-css min 361, (2/4)******************************/
 
 
-
-    /******************************inicio login- css min 361, (2/2)******************************/
-    .login{
-        display: flex;
-        flex-direction: column;
-        width: 350px;
-    }
-    /******************************fin login- css min 361, (2/2)******************************/
-
-
     /******************************inicio productDetail, min-361, (2/5)******************************/
     .botone{width: 30vw;}
     /******************************fin productDetail, min-361, (2/5)******************************/
@@ -1149,8 +1236,6 @@ th {
     /*recuperar- ccs*/
     /*****************************fin recuperar- css(2/2)*********************************/
 }
-
-
 
 
 
@@ -1209,6 +1294,9 @@ th {
         max-width: 100%;
         height: auto;
  }
+
+
+ 
     /*footer*/
     footer{
         position: relative;
@@ -1253,6 +1341,23 @@ th {
     margin-bottom: 7%;
 }
 
+.main-login{
+    width: 95%;
+}
+
+.main-perfil{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+}
+
+.perfil22{
+    width: 100%;
+}
+
+.perfil{
+    width: 50%;
+}
 
 }
 
@@ -1432,11 +1537,9 @@ th {
         font-weight: bold;
     }
 
-
     .table11{
         width: 100%;
     }
-
 
     .table11{
         width: 100%;
@@ -1465,7 +1568,6 @@ th {
         border-bottom: 1px solid #eee ;
         position: relative;
         padding-left: 50%;
-
     }
 
     .table11 td:before{
@@ -1526,6 +1628,7 @@ th {
         flex-wrap: wrap;
         justify-content: center;
         width:100%;}
+
     /******************************fin resumen- css, max-769,(2/2)******************************/
 
 }
@@ -1579,6 +1682,8 @@ th {
         max-width: 100%;
          height: auto;
     }
+    
+    
 }
 /******************************fin productDetail, max-1000 y 490, (5/5)******************************/
 
@@ -1662,3 +1767,4 @@ margin-top: 20px;
     margin-bottom: 80px;
     padding-bottom: 38px
 }
+
