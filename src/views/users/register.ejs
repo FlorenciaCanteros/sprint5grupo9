@@ -9,33 +9,45 @@
     <%- include('../partials/header') %> 
 
 
-    <main class="main-register">
-        <h1 class="registrate">Registrate</h1><br>
+    <div class="main-register">
+    
         <div class="formulario">
-
-            
             
             <form action="/" method="POST">
 
+            
+
                 <div class="register">
-                        <label for="nombre">Nombre</label>
-                        <input type="text" class="reg" name="nombre" id="nombre" placeholder="nombre" required>
 
-                        <label for="apellido">Apellido</label>
-                        <input type="text" class="reg" name="apellido" id="apellido" placeholder="Apellido" required>
+                    <h1 class="registrate">CREAR CUENTA</h1><br>
 
-                        <label for="Nombre de usuario">Nombre de usuario</label>
+                        <label for="nombre"></label>
+                        <input type="text" class="reg" name="nombre" id="nombre" placeholder=" Ingresa tu nombre" required>
+
+                        <label for="apellido"></label>
+                        <input type="text" class="reg" name="apellido" id="apellido" placeholder="Ingresa tu apellido" required>
+
+                        <label for="Nombre de usuario"></label>
                         <input type="text" class="reg" name="Nombre de usuario" id="Nombre de usuario" placeholder="Nombre de usuario" required>
 
-                        <label for="e-mail">Correo</label>
-                        <input type="email" class="reg" name="email" id="e-mail" placeholder="Ej: ejemplo@gmail.com" required>
+                        <label for="avatar">Elige una foto de perfil</label>
+                        <input type="file" name="avatar" class="reg" id="avatar">
                         
-                        <label for="tel">Telefono</label>
-                        <input type="number" class="reg" name="tel" id="tel" placeholder="Teléfono" required>
 
-                        <label for="contraeña">Contraseña</label>
-                        <input type="password" class="reg" name="password" id="contraeña" placeholder="Tu contraseña" required>
 
+                        <label for="e-mail"></label>
+                        <input type="email" class="reg" name="email" id="e-mail" placeholder="Ingresa tu email" required>
+                        
+                        <label for="tel"></label>
+                        <input type="text" class="reg" name="tel" id="tel" placeholder="Celular/Teléfono" required>
+
+                        <label for="contraeña"></label>
+                        <input type="password" class="reg" name="password" id="contraeña" placeholder="Crea una contraseña" required>
+
+                        <label for="contraeña"></label>
+                        <input type="password" class="reg" name="password" id="contraeña" placeholder="Confirmar Contraseña" required>
+
+                </form>
 
                         <button  class="reg2" type="submit" href="/" ><a >Registrate</a> </button>
                     
@@ -43,17 +55,13 @@
                     <div class="avisos">
 
                         <div class="olvidar22">
-                        <a href="/recuperar" >- Olvidé mi contraseña -</a>
+                        <a href="/login" >¿Ya tenés una cuenta? -Iniciar sesión-</a>
                         </div>
-                        
                     </div>
-
                 </div>
-                
-            </form>
         </div>
 
-    </main>
+    </div>
 
 
 
