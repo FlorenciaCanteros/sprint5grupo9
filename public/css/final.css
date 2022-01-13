@@ -152,7 +152,6 @@ div.burger-menu{
   }
 
 div.burger-menu i {
-
     background-color: #3F51B5;
     border-radius: 5px;
     color: #FFF;
@@ -374,6 +373,8 @@ h5{
 .login button  a{
     color:white;
     text-decoration: none;
+    font-size: 18px;
+    margin: auto;
 }
 
 .login button {
@@ -381,8 +382,8 @@ h5{
     background-color: #0022AA;
     margin: auto;
     margin-top: 20px;
-    font-family: 'Zen Kurenaido', sans-serif;
-    font-size: 18px;
+    font-family: 'Zen Kurenaido';
+    width: 27%;
 }
 
 .login button[type='submit']:hover{
@@ -460,17 +461,6 @@ h5{
     padding: 2%;
     font-family: 'Zen Kurenaido', sans-serif;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /******************************fin perfil- css(1/1)*****************************/
 
@@ -824,16 +814,18 @@ main section h3{
 .titulo-recuperar, .letras-recuperar{
     color: rgb(0, 0, 0);
     font-family: 'Zen Kurenaido', sans-serif;
+    margin-bottom: 8px;
 }
 
 .titulo-recuperar{
     font-size: 27px;
+    font-weight: bolder;
 }
 
 .recuperar-contraseña, .validar{
     display: flex;
     flex-direction: column;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 /*texto y titulo*/
 
@@ -842,12 +834,10 @@ main section h3{
 .recuperar-form input, button{
     max-width: 100%;
     padding: 9px;
-   margin: 10px 0px;
+    margin: 10px 0px;
     border-radius: 5px;
     display: flex;
-}
-#e-mailRec{
-    border: outset ; 
+    border: rgb(169, 170, 211);
 }
 
 /*barritas para llenar*/
@@ -857,21 +847,29 @@ main section h3{
 .enviar button  a, .crear button  a{
     color:white;
     text-decoration: none;
+    margin: auto;
+    font-size: 14px;
 }
 
 .enviar button, .crear button {
     max-width: 100%;
-    background-color: #1259c3;
-    border: solid 1px #666;
+    background-color: #0022AA;
+    border: solid 1px ;
+    margin-left: 35%;
+    width: 25%;
+    font-family: 'Zen Kurenaido';
 }
 
 .enviar button[type='submit']:hover, .crear button[type='submit']:hover{
-    background-color: #0022AA;
+    background-color: #1259c3 ;
 }
 
+#e-mailRec{
+    text-decoration: none;
+}
 .recuperar-form{
-
     display: flex;
+    background: linear-gradient(to bottom, #6e7bd4, white);
     background-color: white;
     flex-direction: column;
     border-radius: 15px;
@@ -914,8 +912,6 @@ main section h3{
 .b-de-vuelta{
     text-align: center;
 }
-
-
 
 .register label{
     color: black;
@@ -1347,14 +1343,18 @@ th {
     display: flex;
     width: 90%;
     flex-direction: column;
+    padding: 20px;
+    margin-bottom: 16px;
 }
 
 .perfil22{
     width: 100%;
+    padding: 7%;
 }
 
 .perfil{
-    width: 50%;
+    width: 70%;
+    padding: 7%;
 }
 .main-productCart{
     padding: 0px;
@@ -1687,9 +1687,22 @@ th {
     }
     .Background img { 
         max-width: 100%;
-         height: auto;
+        height: auto;
     }
     
+    .fotoPerfil { 
+        max-width: 100%;
+        height: auto;
+    }
+
+    .perfil{
+        width: 100%;
+    }
+    .productos{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
     
 }
 /******************************fin productDetail, max-1000 y 490, (5/5)******************************/
@@ -1698,7 +1711,6 @@ th {
 .main-product-add,.main-product-add0{
     display: flex;
     justify-content: center;
-   
 }
 
 .main-product-add{
@@ -1774,4 +1786,3 @@ margin-top: 20px;
     margin-bottom: 80px;
     padding-bottom: 38px
 }
-
