@@ -97,17 +97,16 @@ div.burger-menu{
     display: none;
     margin-top:0;
     padding: 0;
-  
-  }
+}
 
 #menu:checked  ~ .burger-menu2 {
     display:block;
 }
 #menu {
-  display: none;
-  }
+display: none;
+}
 
- .menu {
+.menu {
     box-sizing: border-box;
     display: inline-block;
     border: 1px solid black;
@@ -120,36 +119,34 @@ div.burger-menu{
     user-select: none;
 }
 
-
 .desplegableM a{
     text-decoration: none;
     color: #dadada;
 } 
 
-
-  /* Estilo del boton cuando se pasa el mouse por encima*/
-  .menu:hover{
+/* Estilo del boton cuando se pasa el mouse por encima*/
+.menu:hover{
     background: #0022AA;
-  }
-  
-  /* Estilo del boton cuando el menú está expandido*/
-  #menu:checked ~ .menu {
-    background: #0022AA; 
-  }
+}
 
-  .desplegableM{
+/* Estilo del boton cuando el menú está expandido*/
+#menu:checked ~ .menu {
+    background: #0022AA; 
+}
+
+.desplegableM{
     display: block;
     background:#3F51B5 ;
     margin: 0;
     padding: 10px;
     list-style: none;
     border-bottom: 1px solid grey;
-  }
-  
-  /*Estilo cuando el mouse pasa encima de cada link del menu*/
-  .desplegableM:hover {
+}
+
+/*Estilo cuando el mouse pasa encima de cada link del menu*/
+.desplegableM:hover {
     filter: brightness(110%);
-  }
+}
 
 div.burger-menu i {
     background-color: #3F51B5;
@@ -234,7 +231,6 @@ article div.main-article{
     padding-left: 4px;
 }
 
-
 .botone3{
     background-color: rgb(43, 43, 204);
     color: #FFFFFF;
@@ -245,9 +241,9 @@ article div.main-article{
     font-size: 20px;
     border:none;
     text-decoration: none;
-    font-family: 'Zen Kurenaido', sans-serif;
-    
+    font-family: 'Zen Kurenaido', sans-serif;    
 }
+
 .letra3{
     text-decoration: none;
     color:#FFFFFF; 
@@ -339,7 +335,6 @@ h5{
     font-weight: bold;
 }
 
-
 .b-de-vuelta{
     text-align: center;
     color: black;
@@ -350,7 +345,7 @@ h5{
 
 .texto{
     display: flex;
-  justify-content: space-between;
+justify-content: space-between;
 }
 
 .login{
@@ -432,7 +427,6 @@ h5{
 /*avisos  de abajo*/
 /******************************fin login- css(1/2)*****************************/
 
-
 /******************************inicio perfil- css(1/1)*****************************/
 .main-perfil{
     display: flex;
@@ -482,12 +476,10 @@ h5{
     justify-content: center;
 }
 
-
 .h2-compras{
     font-weight: bold;
     font-size: 30px;
 }
-
 
 .produc-precio{
     display: flex;
@@ -497,7 +489,6 @@ h5{
     box-shadow: 0px 0px 10px rgb(82, 81, 81); 
     font-family: 'Zen Kurenaido', sans-serif; 
 }
-
 
 th, td {
     padding: 15px;
@@ -559,7 +550,6 @@ th {
     padding-bottom: 10px;
 }
 
-
 .tabla-productos ul{
     display: flex;
     flex-direction: row;
@@ -570,7 +560,6 @@ th {
     list-style-type: none;
     padding: 15px;
 }
-
 
 /*table*/
 table{
@@ -595,15 +584,13 @@ table {
     padding: 5px;
 }
 .productos img{
-    height: 100px;
-    
+    height: 100px;    
 }
 .cant {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-
 
 .table-responsive {
     min-height: .01%;
@@ -616,11 +603,9 @@ table {
 
 /******************************productsCart- css(1/2)******************************/
 
-
 /*****************************productDetail- css(1/5)*********************************/
 
 /*Producto detallado principal*/
-
 .container{
     display: flex;
     min-height: 80vh;
@@ -802,7 +787,6 @@ main section h3{
 /*fin main- productDetail*/
 /*****************************fin productDetail- css(1/5)*********************************/
 
-
 /*****************************inicio recuperar- css(1/2)*********************************/
 
 /*recuperar- ccs*/
@@ -892,9 +876,9 @@ main section h3{
 /*****************************inicion register- css(1/1)*********************************/
 /*register- ccs*/
 .main-register{
-  padding: 5%;
-  width: 70%;
-  margin:auto;
+padding: 5%;
+width: 70%;
+margin:auto;
 }
 
 .register{
@@ -908,7 +892,6 @@ main section h3{
     margin: auto;
     align-items: center;
 }
-
 
 .register input{
     width: 100%;
@@ -962,7 +945,6 @@ main section h3{
 }
 /*boton enviar*/
 
-
 /*avisos  de abajo*/
 .cuenta-regist{
     display: flex;
@@ -992,10 +974,7 @@ main section h3{
 /*register- ccs*/
 /*****************************fin register- css(1/1)*********************************/
 
-
 /*****************************inicio resumen- css(1/2)*********************************/
-
-/*resumen- ccs*/
 .main-resumen{
     display: flex;
     padding: 50px;
@@ -1023,7 +1002,6 @@ main section h3{
     box-shadow: 0px 0px 10px rgb(82, 81, 81); 
     font-family: 'Zen Kurenaido', sans-serif; 
 }
-
 
 /*lineas de la tabla*/
 th, td {
@@ -1088,7 +1066,6 @@ th {
     justify-content: space-between;
 }
 
-
 /*boton*/
 .letra443{
     display: flex;
@@ -1101,9 +1078,9 @@ th {
 }
 .letra443:hover{
     text-decoration: none;
-     background-color:#97a0d8; 
-     color: black;
- }
+    background-color:#97a0d8; 
+    color: black;
+}
 
 .boton223{
     display: flex;
@@ -1117,20 +1094,17 @@ th {
 }
 .boton223:hover{
     text-decoration: none;
-     background-color:#97a0d8; 
-     color: black;
- }
+    background-color:#97a0d8; 
+    color: black;
+}
 
- /*botn responsive*/
- .padre-boton3{
+/*botn responsive*/
+.padre-boton3{
     display: flex;
     justify-content: center;
     
 }
 /*botn responsive*/
-
-/*boton*/
-
 
 /*table*/
 .table11, .table44{
@@ -1148,7 +1122,6 @@ th {
 /*resumen- ccs*/
 
 /*****************************fin resumen- css(1/2)*********************************/
-
 
 
 @media (min-width: 361px){
@@ -1183,16 +1156,6 @@ th {
             display: flex;
         }
 
-        /*.inicio {
-            display: flex;
-            text-align: center;
-            margin: 10px;
-            font-size: 20px;
-            height: 40px;
-            font-size: 25px;
-        }*************************************en algunos esta y en otros no*************/
-        /*parte header */
-    
     /******************************inicio home-css min 361, (2/4)******************************/
     .main-home section article{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
@@ -1216,7 +1179,6 @@ th {
     .botone{width: 30vw;}
     /******************************fin productDetail, min-361, (2/5)******************************/
 
-    /*****************************inicio recuperar- css(2/2)*********************************/
     /*recuperar- ccs*/
     .recuperar-contraseña, .validar{
         display: flex;
@@ -1224,9 +1186,7 @@ th {
         width: 350px;
     }
     /*recuperar- ccs*/
-    /*****************************fin recuperar- css(2/2)*********************************/
 }
-
 
 
 @media (min-width: 769px){
@@ -1283,10 +1243,7 @@ th {
     .Background img {
         max-width: 100%;
         height: auto;
- }
-
-
- 
+}
     /*footer*/
     footer{
         position: relative;
@@ -1304,7 +1261,6 @@ th {
         }
         /*footer*/
 
-    
     /******************************inicio home-css, max-900, (4/4)******************************/
     .main-home {
         padding: 0px;
@@ -1316,7 +1272,6 @@ th {
     /*nose*/
     .titulo-compra{
         display: block;
-    
     }
     /******************************fin home-css, max-900, (4/4)******************************/
 
@@ -1367,13 +1322,13 @@ th {
 }
 
 .main-register {
-    padding-bottom: 5%;
-    margin: 0px;
+    margin-bottom: 9%;
+    margin-top: 9%;
+    padding: 0px;
     width: auto;
 }
 
 }
-
 
 @media screen and (max-width:769px){
     /******************************inicio productsCart- css, max-769, (2/2)******************************/
@@ -1532,15 +1487,10 @@ th {
         background-color: rgb(43, 43, 204);
         color: white; 
     }
-
     /*responsive table*/
 
     /******************************productsCart- css, max-769, (2/2)******************************/
-
-
     /******************************inicio resumen- css, max-769, (2/2)******************************/
-    /*responsive table*/
-
     .main-resumen{
         display: flex;
         flex-direction: column;
