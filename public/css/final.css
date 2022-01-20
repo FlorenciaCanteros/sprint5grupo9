@@ -899,7 +899,8 @@ margin:auto;
     width: 50%;
     height: 33px;
     border: none;
-    margin-bottom: 16px;
+    /*margin-bottom: 16px;*/       /*lo comento dani*/
+    margin-top: 16px;               /*lo agreguo dani*/
 }
 
 .register label{
@@ -1741,4 +1742,10 @@ margin-top: 20px;
     flex-direction: column;
     margin-bottom: 80px;
     padding-bottom: 38px
+}
+
+
+.text-danger{
+    color: rgb(202, 37, 37); /*lo agrego Dani*/
+    
 }

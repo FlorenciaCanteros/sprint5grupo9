@@ -1,15 +1,32 @@
+const {validationResult} = require('express-validator');
+
 const usersController={
     login:( req,res)=>{
-        res.render('users/login')
+        return res.render('users/login');
+    },
+    processLogin:(req,res)=>{
+        return res.render('users/login');
     },
     register:(req,res)=>{
-        res.render('users/register')
+        return res.render('users/register');
+    },
+    processRegister:(req,res)=>{
+        const resultValidation = validationResult(req);
+        
+        if (resultValidation.errors.length > 0) {
+            return res.render('users/register', {
+                errors: resultValidation.mapped(),
+                oldData: req.body
+            })
+        }
+
+        return res.send('Ok, las validaciones esta bien y no tienes errores');
     },
     recover:(req,res)=>{
-        res.render('users/recuperar')
+        return res.render('users/recuperar');
     },
     perfil:(req,res)=>{
-        res.render('users/perfil')
+        return res.render('users/perfil');
     }
 }
 
