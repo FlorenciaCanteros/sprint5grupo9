@@ -72,24 +72,13 @@
  },
  {
   "id": 8,
-  "nombre": "Floor",
-  "apellido": "canteros",
-  "nombreDeUsuario": "floooooor",
-  "email": "flor.nicole16@gmail.com.ar.gob",
+  "nombre": "tomi",
+  "apellido": "tomas",
+  "nombreDeUsuario": "tomis",
+  "email": "tomas@tomass.com",
   "tel": "1160498896",
-  "password": "$2a$10$waqF0WXvwHKeyB2jzzJkzOq18eehHAlHimd7NZv4wQfaAx64dFqSi",
+  "password": "$2a$10$Trgh2efXghZg0Oz46Ls5ou2RN1Z96io/9Rlh5XHqRtlFwS8kXCvhO",
   "otraPassword": "1160498896",
-  "avatar": "${Date.now()}_img${path.extname(file.originalname)}"
- },
- {
-  "id": 9,
-  "nombre": "Floor",
-  "apellido": "canteros",
-  "nombreDeUsuario": "floooooor",
-  "email": "flor.nicole16@gmail.com.gobbv",
-  "tel": "1160498896",
-  "password": "$2a$10$hkwJxK4dapUXlBZKGeXZqub6lGScZj6e8CjCbrurI0Q.IE/ShDEUy",
-  "otraPassword": "1160498896",
-  "avatar": "${Date.now()}_img${path.extname(file.originalname)}"
+  "avatar": "1643222528025_img.jpg"
  }
 ]
