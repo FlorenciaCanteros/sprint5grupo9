@@ -2,6 +2,7 @@ const {validationResult} = require('express-validator');
 const { create } = require('../model/User');
 const User = require('../model/User');
 const  bcryptjs = require ('bcryptjs');
+const session = require('express-session');
 
 
 const usersController={
@@ -9,17 +10,31 @@ const usersController={
         return res.render('users/login');
     },
     processLogin:(req,res)=>{
-        let userToLogin = User.findByField // terminarr min 53:40
-        if (userToLogin){
+    let userToLogin = User.findByField('email', req.body.email);
 
+    if (userToLogin){
+        let isOkThepassword= bcryptjs.compareSync(req.body.password,userToLogin.password);
+        if (isOkThepassword){
+            delete userToLogin.password;
+            req.session.userLogged= userToLogin;
+
+            return res.redirect('perfil')
         }
-        return res.render ('users/login',{
-           errors:{
-            email:{
-                msg:'No se encuentra este mail registrado'
+        return res.render ('users/login', {
+            errors: {
+                email: {
+                    msg: 'las credenciales son invalidas'
+                }
             }
-        } 
-        })
+        });
+    }
+    return res.render ('users/login', {
+        errors: {
+            email: {
+                msg: 'No se encuentra registrado este email'
+            }
+        }
+    });
 
     },
     register:(req,res)=>{
@@ -62,12 +77,17 @@ const usersController={
 
         return res.redirect('/login'); //una vez registrado te lleva para que entres x login 
     },
+
     recover:(req,res)=>{
         return res.render('users/recuperar');
     },
+
     perfil:(req,res)=>{
-        return res.render('users/perfil');
-    }
+        return res.render('users/perfil',{
+            user: req.session.userLogged
+        });
+
+    },
 }
 
 module.exports=usersController;

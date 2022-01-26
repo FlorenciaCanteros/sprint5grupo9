@@ -80,5 +80,27 @@
   "password": "$2a$10$Trgh2efXghZg0Oz46Ls5ou2RN1Z96io/9Rlh5XHqRtlFwS8kXCvhO",
   "otraPassword": "1160498896",
   "avatar": "1643222528025_img.jpg"
+ },
+ {
+  "id": 9,
+  "nombre": "tomi",
+  "apellido": "tomas",
+  "nombreDeUsuario": "tomiiiiiiiii",
+  "email": "tomas@tomass.com.ar",
+  "tel": "1160498896",
+  "password": "$2a$10$t7GGLpJyih9jdDSn0iSk9OF40Q.5eOM6jXTPJjw5WziO.csCGy2k.",
+  "otraPassword": "1234567890",
+  "avatar": "1643230072076_img.jpg"
+ },
+ {
+  "id": 10,
+  "nombre": "florencia",
+  "apellido": "canteros",
+  "nombreDeUsuario": "flopifloo",
+  "email": "flor@gmail.com",
+  "tel": "1160498888",
+  "password": "$2a$10$hWB8oETYpbj.XYq32yTzMu4AIVRJFK1qcPDv0lG1pzIPXtqBUuKBq",
+  "otraPassword": "1234567890",
+  "avatar": "1643231793615_img.png"
  }
 ]

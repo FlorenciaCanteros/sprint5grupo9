@@ -29,6 +29,6 @@ router.post('/register', uploadFile.single('avatar'), validaciones, usersControl
 //formulario de recuperar
 router.get('/recuperar', usersController.recover);
 //formulario de perfil
-router.get('/perfil/:userId', usersController.perfil);
+router.get('/perfil', usersController.perfil);
 
 module.exports= router;

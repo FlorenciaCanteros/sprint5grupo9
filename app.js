@@ -1,7 +1,16 @@
 const express = require('express');
+const session = require('express-session'); //para iniciar en perfil
 const app = express();
 
+//para iniciar la sesion del perfil
+app.use(session({
+    secret:"secretito shh",
+    resave:false,
+    saveUninitialized:false,
+}))
+
 app.use(express.static('public'));
+
 
 //Motor de vistas
 //set es configuracion, vamos a configurar app, en el q van 2 parametros
