@@ -18,7 +18,7 @@ app.use(methodOverride("_method"));
 
 //Ruta product
 app.use('/', productRutas);
-app.use(express.urlencoded({extended:false})); 
+app.use(express.urlencoded({extended:true})); 
 app.use(express.json());
 //Ruta users
 app.use('/', UsersRutas);

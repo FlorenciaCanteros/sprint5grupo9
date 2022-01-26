@@ -15,11 +15,18 @@
         
 
 
-        <form action="/" method="POST">
+        <form action="/login" method="POST">
 
             <div class="login">
                     <label for="e-mail">Nombre de usurio o correo electrónico</label>
                     <input type="email" name="email" id="e-mail" placeholder="Ingrese su usuario o email" required>
+
+                    <%  if (locals.errors && errors.email) {  %>
+                        <div class="text-danger">
+                            <%= errors.email.msg %> 
+                        </div>
+                        <% } %>  
+                
 
 
                     <label for="contraeña">Contraseña</label>
