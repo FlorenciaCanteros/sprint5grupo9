@@ -102,5 +102,16 @@
   "password": "$2a$10$hWB8oETYpbj.XYq32yTzMu4AIVRJFK1qcPDv0lG1pzIPXtqBUuKBq",
   "otraPassword": "1234567890",
   "avatar": "1643231793615_img.png"
+ },
+ {
+  "id": 11,
+  "nombre": "usuario",
+  "apellido": "prueba",
+  "nombreDeUsuario": "@usuario22",
+  "email": "usuario@gmail.com",
+  "tel": "1160498896",
+  "password": "$2a$10$ivFayD6kj4K0hpEuZTYjm.uDntM7qqJL7bQARm2kYmtpeIxMHwDZ2",
+  "otraPassword": "1234567890",
+  "avatar": "1643290990063_img.jpg"
  }
 ]
