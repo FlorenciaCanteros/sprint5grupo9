@@ -1,8 +1,8 @@
-function authMiddleware(req, res, next) {
-    if (!req.session.userLogged) {
-        return res.redirect('/login');
+function guestMiddleware(req, res, next) {
+    if (req.session.userLogged) {
+        return res.redirect('/perfil');
     }
     next();
 }
 
-module.exports = authMiddleware;
+module.exports = guestMiddleware;
