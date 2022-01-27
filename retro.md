@@ -1,17 +1,14 @@
 # Retrospectiva
-## Que hicimos bien 🥳 :
+## 😊 Que hicimos bien 🥳 :
 -Estar presentes para ayudarnos mutuamente. 
+
+## 🤦 Qué hicimos mal ☹️ :
 -Ver bien la distribucion de tareas.
--Asignarnos roles, dependiendo de las especialidades de cada uno. 
--Poder ordenarnos mejor y solucionar problemas en conjunto.
--Mejoramos la comunicacion
 
-## Qué hicimos mal ☹️ :
--Hacer reuniones sin todos integrantes. 
-
-## Qué deberíamos empezar a hacer 🤓 :
--Hacer reuniones diarias o metas cortas cada cierto tiempo, para avanzar de forma cómoda, mientras controlamos como vamos.
+## 🦾 Qué deberíamos empezar a hacer 🤓 :
+-Hacer reuniones cada cierto tiempo sin que pase tantos días, para avanzar de forma cómoda, mientras controlamos como vamos.
 -Practicar más el git hub.
+-Poder ordenarnos mejor y solucionar problemas en conjunto.
 
-## Qué deberíamos dejar de hacer ☠️ :
+## ☠️ Qué deberíamos dejar de hacer ☠️ :
 -Dejar pasar tiempo sin reunirnos.
