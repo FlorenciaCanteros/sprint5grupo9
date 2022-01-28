@@ -447,7 +447,7 @@ justify-content: space-between;
 }
 
 .fotoPerfil{
-    margin-left: 7%;
+    margin: auto;
     padding: 3%;
     border-radius: 80px;
     border: solid #BDBDBD;
