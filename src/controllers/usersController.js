@@ -93,7 +93,6 @@ return res.render('users/perfil',{
 });
 
 },
-
 logout:(req,res)=>{
 res.clearCookie('userEmail')
 req.session.destroy();

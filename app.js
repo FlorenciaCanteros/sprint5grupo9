@@ -32,6 +32,12 @@ app.use(express.json());
 //Ruta users
 app.use('/', UsersRutas);
 
+
+app.get('/logout', function (req, res) {
+    req.session.destroy();
+    res.redirect('/');
+  });
+
 app.listen(process.env.PORT || 3000 , ()=>{
     console.log('Servidor funcionando');
 });

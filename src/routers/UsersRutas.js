@@ -34,6 +34,7 @@ router.get('/recuperar', usersController.recover);
 router.get('/perfil', authMiddleware ,usersController.perfil);
 
 //para salir del perfil
-//*router.get('/loguot', usersController.loguot);/
+router.get('/', usersController.logout);
+
 
 module.exports= router;
