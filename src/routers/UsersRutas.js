@@ -8,11 +8,14 @@ const path = require('path');
 const uploadFile = require('../middlewares/multerMiddleware');
 const {validaciones} =require('../middlewares/validatorMiddleware');
 const authMiddleware = require('../middlewares/authMiddleware');
-const packageName = require('../middlewares/guestMiddleware');
+const guestMiddleware = require('../middlewares/guestMiddleware');
+const userLoggedMiddleware = require('../middlewares/userLoggedMiddleware');
 
 //controllers
 let usersController= require('../controllers/usersController');
-const guestMiddleware = require('../middlewares/guestMiddleware');
+
+
+
 
 
 //rutas:
@@ -34,7 +37,7 @@ router.get('/recuperar', usersController.recover);
 router.get('/perfil', authMiddleware ,usersController.perfil);
 
 //para salir del perfil
-router.get('/', usersController.logout);
+router.get('/logout/', userLoggedMiddleware, usersController.logout);
 
 
 module.exports= router;
