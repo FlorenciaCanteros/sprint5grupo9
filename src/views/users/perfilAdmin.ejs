@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <%- include('../partials/head') %> 
+
+
+<body>
+
+    <%- include('../partials/header') %>
+
+
+    <main class="main-perfil">
+
+        <div class="perfil">
+            <img class="fotoPerfil" src="img/avatar/<%= user.avatar %>" alt="FotoPerfil" width="150"
+            height="145">
+            <label>Nombre: <%= user.nombre %></label>
+            <label>Apellido:<%= user.apellido %> </label>
+            <label>Nombre de usuario: <%= user.nombreDeUsuario%>  </label>
+            <label>E-mail: <%= user.email %></label>
+            <label>Telefono: <%= user.tel%></label>
+        </div>
+
+        <div class="perfil22">
+            <div><h1>Panel de administrador</h1></div>
+            <div class="producto">
+                <button  class="reg2" style="width: auto;margin-left: 13px;" type="submit"><a  style="color: aliceblue; text-decoration: none;" href="/allproducts">Modificar productos</a> </button>
+                <button  class="reg2" style="width: auto;margin-left: 13px;" type="submit"><a href="/agregarProducto" style="color: aliceblue; text-decoration: none;" >Crear producto</a> </button>
+
+        
+
+            </div>
+        </div>
+    </main>
+
+    <%- include('../partials/footer') %> 
+
+</body>
+</html>

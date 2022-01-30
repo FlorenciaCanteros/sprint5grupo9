@@ -6,7 +6,7 @@ const app = express();
 
 //para iniciar la sesion del perfil
 app.use(session({
-    secret:"secretito shh",
+    secret:"floooor",
     resave:false,
     saveUninitialized:false,
 }))

@@ -15,9 +15,6 @@ const userLoggedMiddleware = require('../middlewares/userLoggedMiddleware');
 let usersController= require('../controllers/usersController');
 
 
-
-
-
 //rutas:
 //formulario de Login
 router.get('/login', guestMiddleware, usersController.login);
@@ -35,6 +32,8 @@ router.post('/register', uploadFile.single('avatar'), validaciones, usersControl
 router.get('/recuperar', usersController.recover);
 //formulario de perfil
 router.get('/perfil', authMiddleware ,usersController.perfil);
+
+router.get('/perfilAdmin', userLoggedMiddleware, authMiddleware ,usersController.perfilAdmin);
 
 //para salir del perfil
 router.get('/logout/', userLoggedMiddleware, usersController.logout);

@@ -93,6 +93,13 @@ return res.render('users/perfil',{
 });
 
 },
+perfilAdmin:(req,res)=>{
+    return res.render('users/perfilAdmin',{
+        user: req.session.userLogged
+    });
+ },
+
+
 logout:(req,res)=>{
 res.clearCookie('userEmail')
 req.session.destroy();
