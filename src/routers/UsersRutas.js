@@ -27,7 +27,10 @@ router.get('/register',guestMiddleware, usersController.register);
 //procesa el registro
 router.post('/register', uploadFile.single('avatar'), validaciones, usersController.processRegister);
 
-
+//no se puede entrar xq no se como hicieron el model
+//les deje echo las funciones solo falta q arreglen como editar el json
+router.get('/register/:id', uploadFile.single('avatar'), validaciones, usersController.edit);
+router.put('/register/:id', uploadFile.single('avatar'), validaciones, usersController.editar);
 //formulario de recuperar
 router.get('/recuperar', usersController.recover);
 //formulario de perfil
