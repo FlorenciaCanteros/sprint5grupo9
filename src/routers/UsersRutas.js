@@ -41,4 +41,6 @@ router.get('/perfil', authMiddleware ,usersController.perfil);
 router.get('/logout/', userLoggedMiddleware, usersController.logout);
 
 
+router.delete('/borrar/:id',usersController.delete);
+
 module.exports= router;

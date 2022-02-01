@@ -119,6 +119,10 @@ const usersController={
         };
         User.update(producto);
         res.redirect("/perfil")
+    },
+    delete:(req,res)=>{
+        User.delete(req.params.id);
+        res.redirect("/");
     }
 }
 
